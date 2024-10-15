@@ -1,0 +1,9 @@
+{
+  "preset": "ts-jest",
+  "testEnvironment": "node",
+  "testPathIgnorePatterns": ["/dist/"],
+  "moduleNameMapper": {
+    "^@sideko/canva_connect_api$": "<rootDir>/src/index.ts",
+    "^@sideko/canva_connect_api/(.*)$": "<rootDir>/src/$1"
+  }
+}
